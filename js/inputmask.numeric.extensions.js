@@ -695,6 +695,18 @@
 			clearMaskOnLostFocus: false
 		}
 		,
+		"currency-euro": {
+		    prefix: "\u20AC ",
+            groupSeparator: ".",
+            radixPoint: ',',
+            alias: "numeric",
+            placeholder: "0",
+            autoGroup: true,
+            digits: 2,
+            digitsOptional: false,
+            clearMaskOnLostFocus: false
+        }
+		,
 		"decimal": {
 			alias: "numeric"
 		}
